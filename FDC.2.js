@@ -41,6 +41,7 @@ numPlus                    18
 
 var num = 15;
 console.log(num);
+
 function logAndReturn(num2){
    console.log(num2);   
    return num2;
@@ -63,6 +64,9 @@ num2                       10
 */ 
 var num = 15;
 console.log(num);
+
+
+
 function timesTwo(num2){
    console.log(num2);   
    return num2*2;
