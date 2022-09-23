@@ -12,9 +12,6 @@
 		var num=1;
 
     	function update(){
-
-
-
 			if (num == 1)
 			{
 				num = 2;
@@ -23,14 +20,9 @@
 			{
 				num = 1;
 			}
-			
 			var ruta =  "img/"+img + num +".png";
-
 			document.getElementById("character").style = "position:absolute; top:"+ topValue +"px; left:"+leftValue+"px; background-image:url(" + ruta + ");  width:59px; height:86px;"
 		}
-
-
-
     	document.onkeydown = function(e){
     		console.log(e);
     		if(e.keyCode == 37) { // LEFT
